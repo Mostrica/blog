@@ -72,7 +72,7 @@ None of this interferes with the user experience or the exchange flow.
 
 This model creates benefits for all participants.
 
-### Node operators
+### Mostro operators
 - Contribute to the development of the tool that generates their income  
 - Retain full control over their contribution percentage  
 - Enjoy complete transparency over their contributions  

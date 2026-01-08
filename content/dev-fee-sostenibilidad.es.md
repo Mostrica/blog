@@ -5,7 +5,7 @@ date = "2026-01-08T12:00:00Z"
 [extra]
 author = "catrya"
 img = "/img/dev-fee.jpg"
-summary = "Mostro incorpora un sistema de financiamiento automático y transparente para su desarrollo: cada operador de una instancia de mostro dedica automáticamente un porcentaje configurable de las comisiones que gana a un fondo de desarrollo, sin costos adicionales para los usuarios. Todo el proceso es verificable públicamente mediante eventos publicados en Nostr, alineando incentivos y garantizando la sostenibilidad del proyecto."
+summary = "Mostro incorpora un sistema de financiamiento automático y transparente para su desarrollo: cada operador de una instancia de Mostro dedica automáticamente un porcentaje configurable de las comisiones que gana a un fondo de desarrollo, sin costos adicionales para los usuarios. Todo el proceso es verificable públicamente mediante eventos publicados en Nostr, alineando incentivos y garantizando la sostenibilidad del proyecto."
 +++
 
 El desarrollo de software libre y descentralizado se enfrenta a una pregunta incómoda pero inevitable:  
@@ -28,7 +28,7 @@ Necesitábamos algo distinto. Un sistema que fuera:
 
 La solución que implementamos es conceptualmente simple pero técnicamente sofisticada.
 
-Cada operador de una instancia de mostro puede configurar un porcentaje (mínimo 10%, por defecto 30%) de las comisiones que **él mismo gana** para que sean donadas automáticamente al fondo de desarrollo.
+Cada operador de una instancia de Mostro puede configurar un porcentaje (mínimo 10%, por defecto 30%) de las comisiones que **él mismo gana** para que sean donadas automáticamente al fondo de desarrollo.
 
 ### Un ejemplo concreto
 
@@ -39,7 +39,7 @@ Imaginemos una operación típica:
 - **Dev fee configurado**: 30%  
 - **Contribución al desarrollo**: 300 sats  
 
-**Lo importante**: Los 300 sats los paga la instancia de mostrod desde sus ganancias, **no se cargan al usuario**. El comprador sigue pagando exactamente los mismos 500 sats de comisión, el vendedor otros 500 sats, y mostrod dona 300 sats de los 1,000 que recibió.
+**Lo importante**: Los 300 sats los paga la instancia de Mostro desde sus ganancias, **no se cargan al usuario**. El comprador sigue pagando exactamente los mismos 500 sats de comisión, el vendedor otros 500 sats, y Mostro dona 300 sats de los 1,000 que recibió.
 
 ## Transparencia total mediante Nostr
 
@@ -72,7 +72,7 @@ Nada de esto interfiere con la experiencia del usuario ni con el flujo de los in
 
 Este modelo genera beneficios para todos los participantes.
 
-### Operadores de nodo
+### Operadores de Mostro
 - Contribuyen al desarrollo de la herramienta que les genera ingresos
 - Mantienen control total sobre su porcentaje de contribución
 - Obtienen transparencia completa sobre sus aportes
