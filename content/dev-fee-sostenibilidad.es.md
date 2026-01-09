@@ -48,6 +48,7 @@ Un sistema así solo funciona si puede ser auditado sin pedir permiso. Por eso, 
 Ese evento incluye:
 
 - El monto aportado
+- La lightning address destino
 - El hash del pago en Lightning
 - El timestamp exacto
 - La referencia a la orden que lo originó

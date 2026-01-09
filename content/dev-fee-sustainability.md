@@ -48,6 +48,7 @@ A system like this only works if it can be audited without asking for permission
 Each event includes:
 
 - The contributed amount  
+- The destination Lightning address
 - The Lightning payment hash  
 - The exact timestamp  
 - A reference to the order that generated it  
