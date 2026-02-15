@@ -23,11 +23,11 @@ I analyzed all 23 repositories under MostroP2P — from the core daemon to clien
 ### 👑 grunch — The Omnipresent Founder
 
 **By the numbers:**
-- mostro: 432 commits, 26 PRs
-- mostro-cli: 332 commits, 56 PRs
-- mobile: 329 commits, 18 PRs
-- mostro-core: 315 commits
-- protocol: 76 commits
+- mostro: 432 commits, 183 PRs
+- mostro-cli: 332 commits, 70 PRs
+- mobile: 329 commits, 78 PRs
+- mostro-core: 315 commits, 51 PRs
+- protocol: 76 commits, 11 PRs
 - Plus: webtool, score, chat, mostrui, website, blog...
 
 **What he does:** Everything. Major feature architecture (Multi-Mostro, Development Fund), infrastructure (CI/CD, zapstore, releases), scoring/reputation tools, and the cleanup work nobody wants to do. When something stalls for too long, he finishes it himself.
@@ -41,9 +41,9 @@ I analyzed all 23 repositories under MostroP2P — from the core daemon to clien
 ### ⚡️ arkanoider — The Backend Engine
 
 **By the numbers:**
-- mostro: 129 commits, 48 PRs (most active in daemon PRs)
-- mostro-core: 206 commits
-- mostro-cli: 173 commits, 34 PRs
+- mostro: 129 commits, 163 PRs (most active in daemon PRs)
+- mostro-core: 206 commits, 64 PRs
+- mostro-cli: 173 commits, 52 PRs
 - mostrix: 121 commits (his own TUI client)
 - mostro-startos: 17 commits
 
@@ -58,11 +58,11 @@ I analyzed all 23 repositories under MostroP2P — from the core daemon to clien
 ### 🔧 Catrya — Full-Stack Mobile + Product + Docs
 
 **By the numbers:**
-- mobile: 124 commits, 30 PRs
-- mostro: 23 commits, 13 PRs
+- mobile: 124 commits, 65 PRs
+- mostro: 23 commits, 24 PRs
 - docs-english: 17 commits
 - docs-spanish: 16 commits
-- protocol: 14 commits
+- protocol: 14 commits, 9 PRs
 - documentation: 13 commits
 - mostrui: 12 commits
 
@@ -77,9 +77,10 @@ I analyzed all 23 repositories under MostroP2P — from the core daemon to clien
 ### 📱 AndreaDiazCorreia — Platform Specialist
 
 **By the numbers:**
-- mobile: 244 commits, 18 PRs (100% mobile)
+- mobile: 244 commits, 38 PRs (100% mobile)
 - mostro-tools: 51 commits
 - mostro-push-server: 18 commits (built it from scratch)
+- mostro-cli: 9 commits, 3 PRs
 
 **What she does:** Deep Android/iOS work — push notifications (built the entire push server), background services, dispute chat, permissions. Also created mostro-tools (TypeScript library).
 
@@ -92,7 +93,7 @@ I analyzed all 23 repositories under MostroP2P — from the core daemon to clien
 ### 🪵 BraCR10 — DevTools Builder
 
 **By the numbers:**
-- mobile: 21 commits, 13 PRs (newest active contributor)
+- mobile: 21 commits, 16 PRs (newest active contributor)
 
 **What he does:** Complete logging system — docs first, then phased implementation. Also restore orders and debugging improvements.
 
